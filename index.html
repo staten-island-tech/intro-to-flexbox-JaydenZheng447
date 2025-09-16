@@ -1,100 +1,157 @@
-<html lang='en'>
-
-<head>
-    <meta charset='ASCII' />
+<html lang="en">
+  <head>
+    <meta charset="ASCII" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yogrrrrrt</title>
     <style>
-        .box {
-            color: white;
-            background-color: cyan;
-            border: 3px solid;
-            border-color: black;
-            margin: 20px auto;
-            align-content: center;
-            text-align: center;
-            font-size: 25px;
-            font-family: "Comic Sans MS", "Comic Sans", sans-serif;
-            height: 400px;
-            width: 400px;
-        }
+      body {
+        background-color: linen;
+      }
+      .box {
+        color: white;
+        background-color: cyan;
+        border: 3px solid;
+        border-color: black;
+        margin: 20px auto;
+        align-content: center;
+        height: 400px;
+        width: 400px;
+        position: relative;
+        box-shadow: 5px 10px #8a795d;
+      }
+      .textclass {
+        width: 400px;
+        text-align: center;
+        font-size: 25px;
+        font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+        position: absolute;
+        bottom: 0;
+      }
+      .container {
+        width: 92vw;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
 
-        .container {
-            background-color: tomato;
-            border: 8px solid black;
-            width: 92vw;
-            margin: 30px auto;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
+      .image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 400px;
+        height: 300px;
+      }
 
-        .image {
-            object-fit: contain;
-            width:100%;
-        }
-
-        .imagebox {
-            position: relative;
-            top: 0;
-            left: 0;
-        }
-
+      .titletext {
+        width: 92vw;
+        text-align: center;
+        font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+        font-size: 100px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div class = 'container'>
-        <div class='box'>
-            <p>Erlenwein of Waterdeep</p>
-            <img class="image"
-                src="https://cahnfellowsprograms.org/wp-content/uploads/2020/12/Fellow-Erlenwein_Mark-2018.jpg" alt="">
-        </div>
-        <div class='box'>
-            <p>Agent of 47</p>
-            <img class="image"
-                src="https://static.wikia.nocookie.net/hitman/images/9/97/47-woa.jpg/revision/latest?cb=20231222011840"
-                alt="">
-        </div>
-        <div class='box'>
-            <p>The Rock of Casterly Rock</p>
-            <img class="image"
-                src="https://hips.hearstapps.com/hmg-prod/images/dwayne-johnson-attends-the-jumanji-the-next-level-uk-film-news-photo-1575726701.jpg?resize=640:*"
-                alt="">
-        </div><div class='box'>
-            <p>Erlenwein of Waterdeep</p>
-            <img class="image"
-                src="https://cahnfellowsprograms.org/wp-content/uploads/2020/12/Fellow-Erlenwein_Mark-2018.jpg" alt="">
-        </div>
-        <div class='box'>
-            <p>Agent of 47</p>
-            <img class="image"
-                src="https://static.wikia.nocookie.net/hitman/images/9/97/47-woa.jpg/revision/latest?cb=20231222011840"
-                alt="">
-        </div>
-        <div class='box'>
-            <p>The Rock of Casterly Rock</p>
-            <img class="image"
-                src="https://hips.hearstapps.com/hmg-prod/images/dwayne-johnson-attends-the-jumanji-the-next-level-uk-film-news-photo-1575726701.jpg?resize=640:*"
-                alt="">
-        </div><div class='box'>
-            <p>Erlenwein of Waterdeep</p>
-            <img class="image"
-                src="https://cahnfellowsprograms.org/wp-content/uploads/2020/12/Fellow-Erlenwein_Mark-2018.jpg" alt="">
-        </div>
-        <div class='box'>
-            <p>Agent of 47</p>
-            <img class="image"
-                src="https://static.wikia.nocookie.net/hitman/images/9/97/47-woa.jpg/revision/latest?cb=20231222011840"
-                alt="">
-        </div>
-        <div class='box'>
-            <p>The Rock of Casterly Rock</p>
-            <img class="image"
-                src="https://hips.hearstapps.com/hmg-prod/images/dwayne-johnson-attends-the-jumanji-the-next-level-uk-film-news-photo-1575726701.jpg?resize=640:*"
-                alt="">
-        </div>
+  <body>
+    <div class="container">
+      <h1 class="titletext">World Leaders For Hire</h1>
     </div>
-</body>
-
+    <div class="container">
+      <div class="box">
+        <p class="textclass">Ali Khamenei</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ali_Khamenei_2025_%283x4_cropped%29.jpg/250px-Ali_Khamenei_2025_%283x4_cropped%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Alexander Lukashenko</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alexander_Lukashenko_%282024-05-24%29_%28cropped%29_3.jpg/250px-Alexander_Lukashenko_%282024-05-24%29_%28cropped%29_3.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Xi Jin Ping</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Xi_Jinping_in_Beijing_on_May_13%2C_2025_%28cropped%29.jpg/250px-Xi_Jinping_in_Beijing_on_May_13%2C_2025_%28cropped%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Vladimir Putin</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Nayib Bukele</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Presidente_Nayib_Bukele_%28cropped%29.jpg/250px-Presidente_Nayib_Bukele_%28cropped%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Donald Trump</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Kier Starmer</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Prime_Minister_Sir_Keir_Starmer_Official_Portrait_%28cropped%29.jpg/250px-Prime_Minister_Sir_Keir_Starmer_Official_Portrait_%28cropped%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Shigeru Ishiba</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ishiba_Shigeru_20241001_%28cropped%29.jpg/250px-Ishiba_Shigeru_20241001_%28cropped%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Benjamin Netenyahu</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Narendra Modi</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Shri_Narendra_Modi%2C_Prime_Minister_of_India_%283x4_cropped%29.jpg/250px-Shri_Narendra_Modi%2C_Prime_Minister_of_India_%283x4_cropped%29.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Shehbaz Sharif</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Shehbaz_Sharif_in_2024.jpg/250px-Shehbaz_Sharif_in_2024.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <p class="textclass">Bola Tinubu</p>
+        <img
+          class="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Bola_Tinubu_portrait.jpg/250px-Bola_Tinubu_portrait.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
 </html>
