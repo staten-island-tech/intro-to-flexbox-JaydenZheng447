@@ -1,0 +1,45 @@
+body {
+  background-color: linen;
+}
+.box {
+  color: white;
+  background-color: cyan;
+  border: 3px solid;
+  border-color: black;
+  margin: 20px auto;
+  align-content: center;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  box-shadow: 5px 10px #8a795d;
+}
+.textclass {
+  width: 400px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+.container {
+  width: 92vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 300px;
+}
+
+.titletext {
+  width: 92vw;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  font-size: 100px;
+}
