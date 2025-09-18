@@ -1,6 +1,19 @@
+html {
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
 body {
   background-color: linen;
 }
+
+.container {
+  width: 92vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .box {
   color: white;
   background-color: cyan;
@@ -13,26 +26,19 @@ body {
   position: relative;
   box-shadow: 5px 10px #8a795d;
 }
+
 .textclass {
   width: 400px;
   text-align: center;
   font-size: 25px;
-  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   position: absolute;
   bottom: 0;
-}
-.container {
-  width: 92vw;
-  margin: 30px auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  color: black;
 }
 
 .image {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  margin-bottom: 100px;
   width: 400px;
   height: 300px;
   cursor: pointer;
@@ -41,6 +47,39 @@ body {
 .titletext {
   width: 92vw;
   text-align: center;
-  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-size: 100px;
+}
+
+.shoppingcart {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.buttonclass {
+  position: absolute;
+  bottom: 0;
+  right: 10;
+  margin-bottom: 22px;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  padding: 3.5px 8px;
+  min-height: 36px;
+  min-width: 36px;
+  color: black;
+  background: white;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+.buttonclass:hover {
+  background: gray;
 }
