@@ -27,6 +27,10 @@ body {
   box-shadow: 5px 10px #8a795d;
 }
 
+.box:hover {
+  scale: 1.1;
+}
+
 .textclass {
   width: 400px;
   text-align: center;
@@ -82,4 +86,12 @@ body {
 }
 .buttonclass:hover {
   background: gray;
+}
+
+#hiddenDiv {
+  display: none;
+  background-color: #0099cc;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
 }
